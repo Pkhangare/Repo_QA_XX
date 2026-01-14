@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "08Aj90yfTSuhFDBqEOlQGM",
+    "id" : "5PqPDWUnEAGgOYeHiy7oEq",
     "name" : "Mapping_RESTV2",
     "type" : "DTEMPLATE",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01CBND17000000000006"
+        "repoHandle" : "01D8P217000000000007"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -23,8 +23,29 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2026-01-14T11:46:45.075Z",
   "objectRefs" : [ {
-    "id" : "5sRacJT2pXRfhP7k2i78En",
+    "id" : "0mWy51Fx9qFcfDcwwW4iQA",
+    "name" : "IDMC_XX_LocalCSVFile",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01D8P20B00000000000A"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "6cIb4JoOJA6dqkAddIzJCJ",
     "name" : "OpenWeather_RESTv2_Connection",
     "type" : "Connection",
     "metadata" : {
@@ -33,7 +54,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01CBND0B000000000008"
+        "repoHandle" : "01D8P20B00000000000E"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -43,25 +64,7 @@
       }
     },
     "path" : "/SYS"
-  }, {
-    "id" : "brqBQFfR4eZggicORqOQuw",
-    "name" : "Flat-File_Connection",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "01CBND0B000000000007"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  } ]
+  } ],
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
 }
